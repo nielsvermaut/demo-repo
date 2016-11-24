@@ -1,8 +1,8 @@
 version: '2'
 services:
-	nginx:
-		image: kitematic/hello-world-nginx
-		ports:
-			- 80:80
-		volumes:
-			- .:/website_files
+  nginx:
+    image: kitematic/hello-world-nginx
+    ports:
+      - 80:80
+    volumes:
+      - .:/website_files
